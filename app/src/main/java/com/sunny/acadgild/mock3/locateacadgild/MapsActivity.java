@@ -42,7 +42,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMapCli
     }
 
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(12.972442, 77.580643)).title("ACADGILD"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(12.961727, 77.638462)).title("ACADGILD"));
 
         CameraUpdate center=
                 CameraUpdateFactory.newLatLng(new LatLng(12.9618373, 77.638049));
