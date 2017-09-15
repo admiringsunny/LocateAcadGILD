@@ -45,8 +45,8 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMapCli
         mMap.addMarker(new MarkerOptions().position(new LatLng(12.972442, 77.580643)).title("ACADGILD"));
 
         CameraUpdate center=
-                CameraUpdateFactory.newLatLng(new LatLng(12.972442, 77.580643));
-        CameraUpdate zoom=CameraUpdateFactory.zoomTo(5);
+                CameraUpdateFactory.newLatLng(new LatLng(12.9618373, 77.638049));
+        CameraUpdate zoom=CameraUpdateFactory.zoomTo(17);
         mMap.moveCamera(center);
         mMap.animateCamera(zoom);
     }
